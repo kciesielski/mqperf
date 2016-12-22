@@ -25,9 +25,6 @@ trait DynamoResultsTable {
   protected val startColumn = "start"
   protected val endColumn = "end"
   protected val typeColumn = "type"
-
-  protected val typeSend = "s"
-  protected val typeReceive = "r"
 }
 
 object ClearDynamoResultsTable extends App with DynamoResultsTable {
